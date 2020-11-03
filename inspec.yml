@@ -1,21 +1,10 @@
----
-name: mysql-baseline
-title: DevSec MySQL Baseline
-maintainer: DevSec Hardening Framework Team
+name: mariadb-baseline
+title: MariaDB Baseline
+maintainer: Stefan Koop
 copyright: DevSec Hardening Framework Team
-copyright_email: hello@dev-sec.io
+copyright_email: mail@stefan-koop.de
 license: Apache-2.0
-summary: Test-suite for best-practice mysql hardening
-version: 4.0.3
+summary: Test-suite for best-practice mariadb hardening
+version: 0.1.0
 supports:
-    - os-family: unix
-inputs:
-    - name: 'user'
-      description: 'MySQL database user'
-      value: 'root'
-      required: true
-    - name: 'password'
-      description: 'MySQL database password'
-      value: 'iloverandompasswordsbutthiswilldo'
-      required: true
-      sensitive: true
+  - os-family: unix
